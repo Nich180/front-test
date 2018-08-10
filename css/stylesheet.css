@@ -1,0 +1,80 @@
+/* SCSS Variables */
+/* Heading banner Section*/
+header {
+  color: white; }
+  header section {
+    height: 650px;
+    text-align: center;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    @media only screen and (max-width: 1920px) and (min-width: 600px) {
+      header section {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://via.placeholder.com/1440x650"); }
+        header section h1 {
+          font-size: 65px; }
+        header section h2 {
+          font-size: 45px;
+          font-weight: 300; } }
+    @media only screen and (max-width: 600px) and (min-width: 0px) {
+      header section {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://via.placeholder.com/600x600"); }
+        header section h1 {
+          font-size: 75px; }
+        header section h2 {
+          font-size: 45px;
+          font-weight: 300; } }
+
+/* Article Gallery Section*/
+main {
+  margin-top: 15px; }
+  @media only screen and (max-width: 600px) and (min-width: 0px) {
+    main {
+      margin-top: 55px; } }
+  main img {
+    padding: 15px;
+    border-radius: 25px;
+    max-width: 400px; }
+    @media only screen and (max-width: 600px) and (min-width: 0px) {
+      main img {
+        border-radius: 15px;
+        padding: 1px !important; } }
+  main article {
+    font-size: 20px; }
+    @media only screen and (max-width: 1920px) and (min-width: 600px) {
+      main article {
+        min-height: 250px; } }
+  main section {
+    vertical-align: top;
+    display: inline-block;
+    margin: 2%; }
+  main p {
+    padding: 0px 12px 0px 9px; }
+  main button {
+    letter-spacing: 4px;
+    border-radius: 25px;
+    height: 55px;
+    width: 220px;
+    margin-bottom: 15px;
+    background: none;
+    font-size: 20px;
+    border: 4px solid #2d2d2d; }
+    @media only screen and (max-width: 1300px) and (min-width: 760px) {
+      main button {
+        height: 50px;
+        width: 150px;
+        margin-bottom: 10px;
+        background: none;
+        font-size: 15px;
+        border: 4px solid #2d2d2d; } }
+
+.read-more-gallery {
+  text-align: center; }
+
+.article-border {
+  border-radius: 10px;
+  border: 1px solid #d1d1d1;
+  padding: 5%; }
+
+/*# sourceMappingURL=stylesheet.css.map */

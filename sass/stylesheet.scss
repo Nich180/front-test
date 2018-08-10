@@ -1,0 +1,28 @@
+@import "_variables";
+@import "_mixins";
+
+@mixin banner{
+    width: 100%;
+    
+}
+
+/* Heading banner Section*/
+header {
+    @include header-banner;
+}
+
+
+/* Article Gallery Section*/
+main{
+    @include article;
+}
+
+.read-more-gallery{
+    text-align: center;
+}
+
+.article-border{
+    border-radius: 10px;
+    border: 1px solid $exercise-grey;
+    padding: 5%;
+}
